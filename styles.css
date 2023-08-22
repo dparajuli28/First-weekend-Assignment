@@ -1,0 +1,62 @@
+    @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+    *{
+        background-image: url(./image/20220526162718_IMG_0878.JPG);
+        background-size: cover;
+        margin: 0px;
+    }
+    .navbar a{
+        text-decoration: none;
+        float: right;
+        margin-right: 30px;
+        background: none;
+    }
+    .home,.about,.services{
+        font-family: 'DynaPuff', cursive;
+        color: rgb(15, 4, 88);
+        size: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 20%;
+        
+    }
+    .navbar{
+        position: relative;
+        height: 100vh;
+        padding-right: 40px;
+    }
+    .fa-solid{
+        margin: 30px;
+    }
+    .fa-solid:hover{
+        background-color: rgb(8, 1, 33);
+    color: rgb(255, 255, 255);
+    background: circle; 
+    }
+    .navbar a:hover{
+    background-color: rgb(8, 1, 33);
+    color: rgb(255, 255, 255);
+    background: circle;
+    }
+    .heading{
+        text-align: center;
+        overflow: hidden;
+        background: none;
+        margin: auto;
+    }
+    .navbar h1{
+        padding-top: 630px;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+        
+    }
+    p{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(193, 188, 188);
+        margin-top: 20px;
+    }
+
+ 
